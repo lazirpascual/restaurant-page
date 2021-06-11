@@ -1,0 +1,2 @@
+alert("hii!");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvaW5kZXguanMiXSwibmFtZXMiOlsiYWxlcnQiXSwibWFwcGluZ3MiOiJBQUFBQSxNQUFNIiwiZmlsZSI6Im1haW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJhbGVydChcImhpaSFcIik7Il0sInNvdXJjZVJvb3QiOiIifQ==
