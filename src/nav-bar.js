@@ -19,9 +19,3 @@ export const createNavBar = () => {
 
     mainContainer.appendChild(navBar);
 }
-
-export const clearContainer = parent => {
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-};
