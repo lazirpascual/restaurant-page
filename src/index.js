@@ -1,7 +1,7 @@
 import { createInitialPage } from './home'
 import { createMenuPage } from './menu'
 import { createAboutPage } from './about'
-import { clearContainer, createNavBar } from './nav-bar'
+import { clearContainer } from './nav-bar'
 
 const mainContainer = document.querySelector('#content');
 createInitialPage();

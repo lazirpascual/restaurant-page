@@ -1,4 +1,6 @@
-import { createNavBar } from './nav-bar'
+import { createNavBar, clearContainer } from './nav-bar'
+import { createInitialPage } from './home'
+import { createMenuPage } from './menu'
 
 export const createAboutPage = () => {
     // change home background
@@ -8,4 +10,26 @@ export const createAboutPage = () => {
     htmlContainer.classList.add('about-background');
 
     createNavBar();
+
+    const mainContainer = document.querySelector('#content');
+    // switch to home page on button click
+const homePage = document.querySelector('#home-id');
+homePage.addEventListener('click', function(e) {
+    clearContainer(mainContainer);
+    createInitialPage();
+});
+
+// switch to menu page on button click
+const menuPage = document.querySelector('#menu-id');
+menuPage.addEventListener('click', function(e) {
+    clearContainer(mainContainer);
+    createMenuPage();
+});
+
+// switch to about page on button click
+const aboutPage = document.querySelector('#about-id');
+aboutPage.addEventListener('click', function(e) {
+    clearContainer(mainContainer);
+    createAboutPage();
+});
 }
