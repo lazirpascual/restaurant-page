@@ -52,18 +52,20 @@
     justify-content: space-evenly;
     align-items: center;
     width: 60%;
-    height: 10em;
+    height: 7em;
     border: 1px solid white;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20%;
     background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: fantasy;
 }
 
 .info-box {
-    font-size: 17px;
+    font-size: 18px;
     padding-top: 1em;
 }
 
