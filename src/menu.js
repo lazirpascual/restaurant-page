@@ -8,6 +8,11 @@ export const createMenuPage = () => {
     htmlContainer.classList.remove('about-background');
     htmlContainer.classList.add('menu-background');
 
+    const mainContainer = document.querySelector('#content');
+    const menu = document.createElement('div');
+    menu.classList.add('menu-style');
+
     createNavBar();
+    mainContainer.appendChild(menu);
     addEventListeners();
 }
