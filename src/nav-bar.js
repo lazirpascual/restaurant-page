@@ -10,10 +10,18 @@ export const createNavBar = () => {
     navBar.appendChild(home);
     const menu = document.createElement('div');
     menu.textContent = "MENU";
+    menu.id = 'menu-id';
     navBar.appendChild(menu);
     const about = document.createElement('div');
     about.textContent = "ABOUT";
+    about.id = 'about-id';
     navBar.appendChild(about);
 
     mainContainer.appendChild(navBar);
 }
+
+export const clearContainer = parent => {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+};

@@ -3,6 +3,8 @@ import { createNavBar } from './nav-bar'
 export const createInitialPage = () => {
     // change home background
     const htmlContainer = document.querySelector('#html');
+    htmlContainer.classList.remove('menu-background');
+    htmlContainer.classList.remove('about-background');
     htmlContainer.classList.add('home-background');
 
     // create section for slogan
