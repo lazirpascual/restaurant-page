@@ -1,9 +1,26 @@
-html {
+.home-background {
     background: url('../images/home.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.menu-background {
+    background: url('../images/menu.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-background {
+    background: url('../images/about.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
 }
 
 .main {
@@ -28,4 +45,10 @@ html {
     margin-top: 5em;
     font-size: 5.5vw;
     font-family: cursive;
+}
+
+#home-id:hover, #menu-id:hover, #about-id:hover {
+    background-color: #c86e44;
+    border-bottom: 1px solid;
+    cursor: pointer;
 }
