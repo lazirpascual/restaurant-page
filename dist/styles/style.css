@@ -47,8 +47,27 @@
     font-family: cursive;
 }
 
+.restaurant-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 10em;
+    border: 1px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.info-box {
+    font-size: 17px;
+    padding-top: 1em;
+}
+
 #home-id:hover, #menu-id:hover, #about-id:hover {
-    background-color: #c86e44;
     border-bottom: 1px solid;
     cursor: pointer;
 }
